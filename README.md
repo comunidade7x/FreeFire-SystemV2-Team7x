@@ -494,7 +494,7 @@ GET https://freefire7x.squareweb.app/api/v2/carreira-cs?uid=1033857091&auth=SEU_
 - 400/401/403/404 `{ erro: "mensagem erro" }`
 
 ---
-## 12) **Carreira do BR**
+## 13) **Carreira do BR**
 
 **Exemplo**
 ```
