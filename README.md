@@ -11,7 +11,7 @@ https://freefire7x.squareweb.app
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/search-guilda?id=2056294718&auth=SEU_TOKEN_API
+GET https://freefire7x.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
