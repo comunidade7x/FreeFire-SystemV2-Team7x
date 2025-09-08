@@ -32,20 +32,15 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/search-guilda</b></td>
       <td>Buscar Guilda por ID</td>
       <td>🟢 Online</td>
-      <td><a href="#buscar-guilda-por-id">Ver detalhes</a></td>
-    </tr>
     <tr>
       <td><b>/api/v2/lista-desejos</b></td>
       <td>Lista do desejo (itens do jogador)</td>
       <td>🟢 Online</td>
-      <td><a href="#lista-do-desejo-itens-do-jogador">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/info-token</b></td>
       <td>Inspecionar token</td>
       <td>🟢 Online</td>
-      <td><a href="#inspecionar-token">Ver detalhes</a></td>
-    </tr>
     <tr>
       <td><b>/api/v2/tabela-pontos</b></td>
       <td>Tabela de classificação (Pontos)</td>
@@ -59,8 +54,6 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/ranking-passe-global</b></td>
       <td>Ranking Passe (Global)</td>
       <td>🟢 Online</td>
-      <td><a href="#ranking-passe-global">Ver detalhes</a></td>
-    </tr>
     <tr>
       <td><b>/api/v2/check-ban</b></td>
       <td>Check ban</td>
@@ -77,7 +70,6 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/carteira-player</b></td>
       <td>Carteira do jogador</td>
       <td>🟢 Online</td>
-      <td><a href="#carteira-do-jogador">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/carreira-cs</b></td>
