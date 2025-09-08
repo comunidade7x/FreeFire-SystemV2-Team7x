@@ -15,67 +15,53 @@ https://freefire7x.squareweb.app
   <table>
     <tr>
       <th style="color:#FFD700;">GET</th>
-      <th style="color:#00FF00;">Descrição</th>
       <th style="color:#00BFFF;">Status</th>
     </tr>
     <tr>
       <td><b>/api/v2/search-player</b></td>
-      <td>Buscar jogador por Nickname</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/info-player</b></td>
-      <td>Informações do jogador (UID)</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/search-guilda</b></td>
-      <td>Buscar Guilda por ID</td>
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/lista-desejos</b></td>
-      <td>Lista do desejo (itens do jogador)</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/info-token</b></td>
-      <td>Inspecionar token</td>
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/tabela-pontos</b></td>
-      <td>Tabela de classificação (Pontos)</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/tabela-pontos</b></td>
-      <td>Ranking Passe (Regional)</td>
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/ranking-passe-global</b></td>
-      <td>Ranking Passe (Global)</td>
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/check-ban</b></td>
-      <td>Check ban</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/version</b></td>
-      <td>Versão do jogo/servidor</td>
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/carteira-player</b></td>
-      <td>Carteira do jogador</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/carreira-cs</b></td>
-      <td>Carreira do CS</td>
       <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/carreira-br</b></td>
-      <td>Carreira do BR</td>
       <td>🟢 Online</td>
     </tr>
   </table>
