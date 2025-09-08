@@ -21,13 +21,12 @@ https://freefire7x.squareweb.app
     <tr>
       <td><b>/api/v2/search-player</b></td>
       <td>Buscar jogador por Nickname</td>
-      <td>🟢 Online</td
+      <td>🟢 Online</td>
     </tr>
     <tr>
       <td><b>/api/v2/info-player</b></td>
       <td>Informações do jogador (UID)</td>
       <td>🟢 Online</td>
-      <td><a href="#informações-do-jogador-por-uid">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/search-guilda</b></td>
@@ -51,14 +50,11 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/tabela-pontos</b></td>
       <td>Tabela de classificação (Pontos)</td>
       <td>🟢 Online</td>
-      <td><a href="#tabela-de-classificação-pontos">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/tabela-pontos</b></td>
       <td>Ranking Passe (Regional)</td>
       <td>🟢 Online</td>
-      <td><a href="#ranking-passe-regional">Ver detalhes</a></td>
-    </tr>
     <tr>
       <td><b>/api/v2/ranking-passe-global</b></td>
       <td>Ranking Passe (Global)</td>
