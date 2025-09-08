@@ -17,13 +17,11 @@ https://freefire7x.squareweb.app
       <th style="color:#FFD700;">GET</th>
       <th style="color:#00FF00;">Descrição</th>
       <th style="color:#00BFFF;">Status</th>
-      <th style="color:#FF69B4;">Docs</th>
     </tr>
     <tr>
       <td><b>/api/v2/search-player</b></td>
       <td>Buscar jogador por Nickname</td>
-      <td>🟢 Online</td>
-      <td><a href="#buscar-jogador-por-nickname">Ver detalhes</a></td>
+      <td>🟢 Online</td
     </tr>
     <tr>
       <td><b>/api/v2/info-player</b></td>
