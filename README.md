@@ -58,14 +58,11 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/check-ban</b></td>
       <td>Check ban</td>
       <td>🟢 Online</td>
-      <td><a href="#check-ban">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/version</b></td>
       <td>Versão do jogo/servidor</td>
       <td>🟢 Online</td>
-      <td><a href="#versão-do-jogoservidor">Ver detalhes</a></td>
-    </tr>
     <tr>
       <td><b>/api/v2/carteira-player</b></td>
       <td>Carteira do jogador</td>
@@ -75,13 +72,11 @@ https://freefire7x.squareweb.app
       <td><b>/api/v2/carreira-cs</b></td>
       <td>Carreira do CS</td>
       <td>🟢 Online</td>
-      <td><a href="#carreira-do-cs">Ver detalhes</a></td>
     </tr>
     <tr>
       <td><b>/api/v2/carreira-br</b></td>
       <td>Carreira do BR</td>
       <td>🟢 Online</td>
-      <td><a href="#carreira-do-br">Ver detalhes</a></td>
     </tr>
   </table>
 </div>
