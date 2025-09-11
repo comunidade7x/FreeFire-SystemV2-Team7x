@@ -114,6 +114,7 @@ GET https://freefire7x.squareweb.app/api/v2/search-player?nickname=regis7x&auth=
   "sucesso": false
   }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 2) Informações do jogador (por **UID**)
@@ -174,7 +175,7 @@ GET https://freefire7x.squareweb.app/api/v2/info-player?uid=1033857091&auth=SEU_
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
-
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 3) Buscar **Guilda** por ID
@@ -217,6 +218,7 @@ GET https://freefire7x.squareweb.app/api/v2/search-guilda?id=2056294718&auth=SEU
   "sucesso": false
 }`.
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 - `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 4) **Lista do desejo** (itens do jogador)
@@ -263,6 +265,7 @@ GET https://freefire7x.squareweb.app/api/v2/lista-desejos?uid=1033857091&auth=SE
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 
 ---
 
@@ -315,6 +318,7 @@ GET https://freefire7x.squareweb.app/api/v2/info-token?access_token=XXXX&auth=SE
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 
 ---
 
@@ -359,6 +363,7 @@ GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 
 ---
 
@@ -398,6 +403,7 @@ GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 
 ---
 
@@ -437,6 +443,7 @@ GET https://freefire7x.squareweb.app/api/v2/ranking-passe-global?auth=SEU_TOKEN_
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 9) **Check ban**
@@ -467,6 +474,7 @@ GET https://freefire7x.squareweb.app/api/v2/check-ban?uid=1033857091&auth=SEU_TO
   "mensagem": "Erro interno do servidor",
   "sucesso": false
 }`
+401 - `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 10) **Versão do jogo/servidor**
@@ -500,6 +508,7 @@ GET https://freefire7x.squareweb.app/api/v2/version?auth=SEU_TOKEN_API
   "mensagem": "Erro interno do servidor",
   "sucesso": false
 }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 11) **Carteira do jogador**
@@ -529,7 +538,7 @@ GET https://freefire7x.squareweb.app/api/v2/carteira-player?access_token=XXXXX&a
   "sucesso": false
 }`
 - 500 `{ erro: "Erro interno do servidor" }`
-
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 ---
 
 ## 12) **Carreira do CS**
@@ -554,7 +563,8 @@ GET https://freefire7x.squareweb.app/api/v2/carreira-cs?uid=1033857091&auth=SEU_
 ```
 **Erros**:
 - 500 `500 { erro: "Erro interno do servidor" }`
-- 400/401/403/404 `{ erro: "mensagem erro" }`
+- 400/403/404 `{ erro: "mensagem erro" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
 
 ---
 ## 13) **Carreira do BR**
@@ -597,4 +607,5 @@ GET https://freefire7x.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_
 ```
 **Erros**:
 - 500 `500 { erro: "Erro interno do servidor" }`
-- 400/401/403/404 `{ erro: "mensagem erro" }`
+- 400/403/404 `{ erro: "mensagem erro" }`
+- 401 `{"status":false,"dev":"@Regiis7x","mensagem":"Token api não encontrado.","token":null}`
