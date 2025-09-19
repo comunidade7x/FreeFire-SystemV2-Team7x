@@ -4,7 +4,7 @@ Documentação dos endpoints HTTP públicos, com exemplos reais de requisição 
 
 **Base URL**
 ```
-https://freefire7x.squareweb.app
+https://7xhub-api.squareweb.app
 ```
 
 ---
@@ -74,7 +74,7 @@ https://freefire7x.squareweb.app
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/search-player?nickname=regis7x&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -119,7 +119,7 @@ GET https://freefire7x.squareweb.app/api/v2/search-player?nickname=regis7x&auth=
 ## 2) Informações do jogador (por **UID**)
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/info-player?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/info-player?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -179,7 +179,7 @@ GET https://freefire7x.squareweb.app/api/v2/info-player?uid=1033857091&auth=SEU_
 ## 3) Buscar **Guilda** por ID
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/search-guilda?id=2056294718&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/search-guilda?id=2056294718&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -222,7 +222,7 @@ GET https://freefire7x.squareweb.app/api/v2/search-guilda?id=2056294718&auth=SEU
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/lista-desejos?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/lista-desejos?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -268,7 +268,7 @@ GET https://freefire7x.squareweb.app/api/v2/lista-desejos?uid=1033857091&auth=SE
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/info-token?access_token=XXXX&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/info-token?access_token=XXXX&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -319,7 +319,7 @@ GET https://freefire7x.squareweb.app/api/v2/info-token?access_token=XXXX&auth=SE
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -362,7 +362,7 @@ GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -400,7 +400,7 @@ GET https://freefire7x.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/ranking-passe-global?auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/ranking-passe-global?auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -438,7 +438,7 @@ GET https://freefire7x.squareweb.app/api/v2/ranking-passe-global?auth=SEU_TOKEN_
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/check-ban?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/check-ban?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -468,7 +468,7 @@ GET https://freefire7x.squareweb.app/api/v2/check-ban?uid=1033857091&auth=SEU_TO
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/version?auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/version?auth=SEU_TOKEN_API
 ```
 
 
@@ -501,7 +501,7 @@ GET https://freefire7x.squareweb.app/api/v2/version?auth=SEU_TOKEN_API
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/carteira-player?access_token=XXXXX&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/carteira-player?access_token=XXXXX&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -530,7 +530,7 @@ GET https://freefire7x.squareweb.app/api/v2/carteira-player?access_token=XXXXX&a
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/carreira-cs?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/carreira-cs?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
@@ -554,7 +554,7 @@ GET https://freefire7x.squareweb.app/api/v2/carreira-cs?uid=1033857091&auth=SEU_
 
 **Exemplo**
 ```
-GET https://freefire7x.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
