@@ -14,6 +14,7 @@ https://7xhub-api.squareweb.app
 <div align="center">
   <table>
     <tr>
+      <th style="color:#00BFFF;">Api Cod</th>
       <th style="color:#FFD700;">GET</th>
       <th style="color:#00BFFF;">Status</th>
     </tr>
