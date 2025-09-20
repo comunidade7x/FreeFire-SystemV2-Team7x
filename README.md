@@ -79,7 +79,7 @@ https://7xhub-api.squareweb.app
       <td>🟢 Online</td>
     </tr>
     <tr>
-      <td>#13</td>td>
+      <td>#13</td>
       <td><b>/api/v2/like</b></td>
       <td>🟢 Online</td>
     </tr>
