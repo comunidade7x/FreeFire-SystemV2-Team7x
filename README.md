@@ -18,6 +18,7 @@ https://7xhub-api.squareweb.app
       <th style="color:#00BFFF;">Status</th>
     </tr>
     <tr>
+      <td>#1</td>
       <td><b>/api/v2/search-player</b></td>
       <td>🟢 Online</td>
     </tr>
