@@ -337,7 +337,7 @@ GET https://7xhub-api.squareweb.app/api/v2/info-token?access_token=XXXX&auth=SEU
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app//api/v2/tabela-pontos?auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/tabela-pontos?auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
