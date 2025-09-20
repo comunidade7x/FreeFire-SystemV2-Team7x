@@ -47,7 +47,7 @@ https://7xhub-api.squareweb.app
       <td>🟢 Online</td>
     <tr>
       <td><b>/api/v2/check-ban</b></td>
-      <td>🟢 Online</td>
+      <td>🟡 Manutenção</td>
     </tr>
     <tr>
       <td><b>/api/v2/version</b></td>
@@ -62,6 +62,10 @@ https://7xhub-api.squareweb.app
     </tr>
     <tr>
       <td><b>/api/v2/carreira-br</b></td>
+      <td>🟢 Online</td>
+    </tr>
+    <tr>
+      <td><b>/api/v2/like</b></td>
       <td>🟢 Online</td>
     </tr>
   </table>
