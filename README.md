@@ -595,3 +595,46 @@ GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_T
 **Erros**:
 - 500 `500 { erro: "Erro interno do servidor" }`
 - 400/403/404 `{ erro: "mensagem erro" }`
+--
+## 13) **Carreira do BR**
+
+**Exemplo**
+```
+GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_TOKEN_API
+```
+
+**Resposta (200)**
+```json
+{
+  "dev": "#Regiis7x",
+  "sucesso": true,
+  "uid": "1033857091",
+  "stats": {
+    "BR_CAREER": {
+      "solo_stats": { "...": "..." },
+      "duo_stats": { "...": "..." },
+      "squad_stats": { "...": "..." }
+    },
+    "BR_CLASSIC": {
+      "solo_stats": {
+        "detailed_stats": { "...": "..." }
+      },
+      "duo_stats": {
+        "detailed_stats": { "...": "..." }
+      },
+      "squad_stats": {
+        "detailed_stats": { "...": "..." }
+      }
+    },
+    "BR_RANKED": {
+      "solo_stats": { "...": "..." },
+      "duo_stats": { "...": "..." },
+      "squad_stats": { "...": "..." }
+    }
+  }
+}
+```
+**Erros**:
+- 500 `500 { erro: "Erro interno do servidor" }`
+- 400/403/404 `{ erro: "mensagem erro" }`
+- 
