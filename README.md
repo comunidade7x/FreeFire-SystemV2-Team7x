@@ -42,31 +42,39 @@ https://7xhub-api.squareweb.app
       <td><b>/api/v2/info-token</b></td>
       <td>🟢 Online</td>
     <tr>
+      <td>#6</td>
       <td><b>/api/v2/tabela-pontos</b></td>
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#7</td>
       <td><b>/api/v2/tabela-pontos</b></td>
       <td>🟢 Online</td>
     <tr>
+      <td>#8</td>
       <td><b>/api/v2/ranking-passe-global</b></td>
       <td>🟢 Online</td>
     <tr>
+      <td>#8</td>
       <td><b>/api/v2/check-ban</b></td>
       <td>🟡 Manutenção</td>
     </tr>
     <tr>
+      <td>#9</td>
       <td><b>/api/v2/version</b></td>
       <td>🟢 Online</td>
     <tr>
+      <td>#10</td>
       <td><b>/api/v2/carteira-player</b></td>
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#11</td>
       <td><b>/api/v2/carreira-cs</b></td>
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#12</td>
       <td><b>/api/v2/carreira-br</b></td>
       <td>🟢 Online</td>
     </tr>
