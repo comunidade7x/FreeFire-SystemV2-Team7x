@@ -596,7 +596,7 @@ GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_T
 - 500 `500 { erro: "Erro interno do servidor" }`
 - 400/403/404 `{ erro: "mensagem erro" }`
 --
-## 13) **Carreira do BR**
+## 14) **Likes Diários**
 
 **Exemplo**
 ```
