@@ -626,6 +626,5 @@ GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_AP
 }
 ```
 **Erros**:
+- 404 `{"status":"not_found","mensagem":"Não foi possível localizar o jogador com o UID fornecido."}`
 - 500 `500 { erro: "Erro interno do servidor" }`
-- 400/403/404 `{ erro: "mensagem erro" }`
-- 
