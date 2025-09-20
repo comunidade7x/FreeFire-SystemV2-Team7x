@@ -600,36 +600,27 @@ GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_T
 
 **Exemplo**
 ```
-GET https://7xhub-api.squareweb.app/api/v2/carreira-br?uid=1033857091&auth=SEU_TOKEN_API
+GET https://7xhub-api.squareweb.app/api/v2/like?uid=1033857091&auth=SEU_TOKEN_API
 ```
 
 **Resposta (200)**
 ```json
 {
-  "dev": "#Regiis7x",
-  "sucesso": true,
-  "uid": "1033857091",
-  "stats": {
-    "BR_CAREER": {
-      "solo_stats": { "...": "..." },
-      "duo_stats": { "...": "..." },
-      "squad_stats": { "...": "..." }
+  "status": "success",
+  "mensagem": "Likes processados com sucesso.",
+  "data": {
+    "player": {
+      "nickname": "@Totosoㅤ7x'",
+      "region": "BR",
+      "level": 72,
+      "exp": "3,373,088",
+      "uid": "1033857091"
     },
-    "BR_CLASSIC": {
-      "solo_stats": {
-        "detailed_stats": { "...": "..." }
-      },
-      "duo_stats": {
-        "detailed_stats": { "...": "..." }
-      },
-      "squad_stats": {
-        "detailed_stats": { "...": "..." }
-      }
-    },
-    "BR_RANKED": {
-      "solo_stats": { "...": "..." },
-      "duo_stats": { "...": "..." },
-      "squad_stats": { "...": "..." }
+    "likes": {
+      "antes": "8,482",
+      "depois": "8,482",
+      "adicionados": "0",
+      "limite_diario": "✅"
     }
   }
 }
