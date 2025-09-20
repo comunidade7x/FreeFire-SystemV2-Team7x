@@ -24,17 +24,21 @@ https://7xhub-api.squareweb.app
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#2</td>
       <td><b>/api/v2/info-player</b></td>
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#3</td>
       <td><b>/api/v2/search-guilda</b></td>
       <td>🟢 Online</td>
     <tr>
+      <td>#4</td>
       <td><b>/api/v2/lista-desejos</b></td>
       <td>🟢 Online</td>
     </tr>
     <tr>
+      <td>#5</td>
       <td><b>/api/v2/info-token</b></td>
       <td>🟢 Online</td>
     <tr>
